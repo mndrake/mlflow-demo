@@ -1,0 +1,17 @@
+name: mlflow-demo
+
+dependencies:
+  - python=3.7.3
+  - py-xgboost=0.90
+  - pandas=0.24.2
+  - matplotlib=3.0.3
+  - pyqt
+  - pip
+  - pip:
+    - databricks-connect==6.6.*
+    - pylint
+    - six
+    - databricks-cli
+    - pyarrow==0.13.0
+    - mlflow==1.8.0
+    - shap==0.35.0
